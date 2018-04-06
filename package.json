@@ -1,5 +1,11 @@
 {
   "name": "RoR",
   "private": true,
-  "dependencies": {}
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-google": "^0.9.1",
+    "gulp-scsslint": "0.0.5",
+    "sass-lint": "^1.12.1"
+  }
 }
