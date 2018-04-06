@@ -1,4 +1,10 @@
+<<<<<<< 7e7ffa98547f3f7dc3863de03336ff1e8fd93d66
 source "https://rubygems.org"
+=======
+
+source "https://rubygems.org"
+
+>>>>>>> initCI
 
 git_source(:github) do |repo_name|
   repo_name = "#{repo_name}/#{repo_name}" unless repo_name.include?("/")
@@ -18,7 +24,11 @@ end
 # Bundle edge Rails instead: gem "rails", github: "rails/rails"
 gem "rails", "~> 5.1.6"
 # Use sqlite3 as the database for Active Record
+<<<<<<< 7e7ffa98547f3f7dc3863de03336ff1e8fd93d66
 
+=======
+gem "sqlite3"
+>>>>>>> initCI
 # Use Puma as the app server
 gem "puma", "~> 3.7"
 # Use SCSS for stylesheets
@@ -35,6 +45,7 @@ gem "turbolinks", "~> 5"
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem "jbuilder", "~> 2.5"
 
+<<<<<<< 7e7ffa98547f3f7dc3863de03336ff1e8fd93d66
 gem "jquery-rails", "4.3.1"
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
@@ -42,6 +53,12 @@ gem "jquery-rails", "4.3.1"
 group :development, :test do
   gem "sqlite3", "1.3.13"
   gem "byebug",  "9.0.6", platform: :mri
+=======
+# Windows does not include zoneinfo files, so bundle the tzinfo-data gem
+
+group :development, :test do
+  gem "byebug", platforms: [:mri, :mingw, :x64_mingw]
+>>>>>>> initCI
   gem "capybara", "~> 2.13"
   gem "selenium-webdriver"
   gem "rspec-rails", "~> 3.0.0"
@@ -64,14 +81,18 @@ group :development, :test do
 end
 
 group :test do
+<<<<<<< 7e7ffa98547f3f7dc3863de03336ff1e8fd93d66
   gem "rails-controller-testing", "1.0.2"
   gem "minitest-reporters",       "1.1.14"
   gem "guard",                    "2.13.0"
   gem "guard-minitest",           "2.4.4"
+=======
+>>>>>>> initCI
   gem "simplecov", require: false
   gem "simplecov-rcov", require: false
   gem "simplecov-json"
   gem "shoulda-matchers"
+<<<<<<< 7e7ffa98547f3f7dc3863de03336ff1e8fd93d66
 end
 
 group :production do
@@ -80,3 +101,6 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+=======
+end
+>>>>>>> initCI
