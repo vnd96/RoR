@@ -31,6 +31,8 @@
 
 en:
   static_pages:
+    base_title: Ruby on Rails Tutorial Sample App
+
     home:
       home: "Home"
       sample_app: "Sample App"
