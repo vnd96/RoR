@@ -35,10 +35,14 @@ en:
 
     home:
       home: "Home"
-      sample_app: "Sample App"
+      sample_app: "Welcome to the Sample App"
       ho1: "This is the home page for the"
       ho2: "Ruby on Rails Tutorial"
       ho3: "sample application."
+      sign_up: "Sign up now!"
+      the: "The"
+      by: "by"
+      author: "Michael Hartl"
 
     about:
       about: "About"
@@ -65,6 +69,21 @@ en:
       co1: "Contact the Ruby on Rails Tutorial about the sample app at the"
       co2: "Contact page"
 
-  layouts:
-    application:
-      introduce: Ruby on Rails Tutorial Sample App
+    users:
+      sign_up: "Sign up"
+      us1: "This will be a signup page for new users."
+      male: "Male"
+      female: "Female"
+      create: "Create my account"
+      confirm: "Confirmation"
+
+
+  layout:
+    footer:
+      by: "by"
+      author: "Michael Hartl"
+      news: "News"
+
+    header:
+      sample: "Sample app"
+      login: "Login"
