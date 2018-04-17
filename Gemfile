@@ -38,7 +38,8 @@ gem "jbuilder", "~> 2.5"
 
 gem "bootstrap-sass", "3.3.7"
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
-
+gem "bcrypt", "3.1.11"
+gem "config"
 group :development, :test do
   gem "byebug",  "9.0.6", platform: :mri
 gem "jquery-rails", "4.3.1"
