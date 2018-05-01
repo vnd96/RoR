@@ -31,8 +31,9 @@
 
 en:
   static_pages:
-    base_title: Ruby on Rails Tutorial Sample App
+    base_title: "Ruby on Rails Tutorial Sample App"
     not_found: "User not found"
+    invalid: "Invalid email/password combination"
 
     home:
       home: "Home"
@@ -88,7 +89,16 @@ en:
     header:
       sample: "Sample app"
       login: "Login"
+      user: "Users"
+      profile: "Profile"
+      setting: "Settings"
+      logout: "Log out"
+      account: "Account"
 
   shared:
     error_messages:
       the_form_contain: "The form contains"
+
+  sessions:
+    new:
+      log_in: "Log in"
